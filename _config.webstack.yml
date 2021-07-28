@@ -54,7 +54,7 @@ myBlog: #我的博客
     img: https://unpkg.zhimg.com/meng-luo-blog@1.1.0/%E5%A4%B4%E5%83%8F.jpg
     description: 一个懒人的博客。
   - name: 梦落の网盘
-    url: https://driveysbrid.top/
+    url: https://drive.ysbrid.top/
     img: https://unpkg.zhimg.com/meng-luo-blog@1.1.0/nav/drive.jpg
     description: 分享资源的东西
   - name: Github下载加速
