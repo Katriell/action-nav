@@ -41,29 +41,37 @@ devTools: #开发工具
     description: 面向开源及私有软件项目的托管平台。
   - name: Vercel
     url: https://vercel.com
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.1.0/nav/vercel.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.0/nav/vercel.webp
     description: 网站托管加速服务。
   - name: Coding
     url: https://coding.net
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.1.0/nav/coding.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.0/nav/coding.png
     description: 一站式开发协作工具
 
 myBlog: #我的博客
   - name: 梦落の鸟窝
     url: https://www.ysbrid.top
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.1.0/%E5%A4%B4%E5%83%8F.jpg
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.2/%E5%A4%B4%E5%83%8F.webp
     description: 一个懒人的博客。
+  - name: 梦落の主页
+    url: https://home.ysbrid.top
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.2//%E9%BB%98%E8%AE%A4%E5%A4%B4%E5%9B%BE.webp
+    description: 高仿Windows的主页
+  - name: 关于梦璃雨落
+    url: https://about.ysbrid.top
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.2/post/5.webp
+    description: 高仿win8.1开始菜单的关于页
   - name: 梦落の网盘
     url: https://drive.ysbrid.top
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.1.0/nav/drive.jpg
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.2/nav/drive.webp
     description: 分享资源的东西
   - name: Github下载加速
     url: https://speed.ysbrid.top
     img: /images/logos/github.png
     description: 加速下载GitHub上的文件
-  - name: 网站监测
+  - name: 网站监控
     url: https://status.ysbrid.top
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.1.0/nav/suatus.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.2/nav/suatus.webp
     description: 看看我的网站有没有正常运行把
 
 #website: #常用网站
@@ -103,7 +111,7 @@ aboutPage:
     head: 关于站长
     name: 梦璃雨落
     url: https://www.ysbrid.top/
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.1.0/%E5%A4%B4%E5%83%8F.jpg
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.2/%E5%A4%B4%E5%83%8F.webp
     description: 懒人一个
     html: '<br /><blockquote><p>本站是<a href="https://github.com/HCLonely">HCLonely</a>基于<a href="https://github.com/WebStackPage/WebStackPage.github.io">WebStackPage</a>项目做的一款<a href="https://hexo.io/">Hexo</a>主题。</p></blockquote>'
 
