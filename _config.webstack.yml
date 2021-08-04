@@ -36,21 +36,21 @@ menu:
 
 
 myBlog: #我的网站
-  - name: 梦落の鸟窝
+  - name: 梦落の小屋
     url: https://www.ysbrid.top
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.5/%E5%A4%B4%E5%83%8F.webp
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/%E5%A4%B4%E5%83%8F.webp
     description: 一个懒人的博客。
   - name: 梦落の主页
     url: https://home.ysbrid.top
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.5/nav/%E4%B8%BB%E9%A1%B5.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/%E4%B8%BB%E9%A1%B5.png
     description: 高仿Windows的主页
   - name: 关于梦璃雨落
     url: https://about.ysbrid.top
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.5/nav/%E5%85%B3%E4%BA%8E.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/%E5%85%B3%E4%BA%8E.png
     description: 高仿win8.1开始菜单的关于页
   - name: 梦落の网盘
     url: https://drive.ysbrid.top
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.5/nav/%E4%BA%91%E7%9B%98.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/%E4%BA%91%E7%9B%98.png
     description: 分享资源的东西
   - name: Github下载加速
     url: https://speed.ysbrid.top
@@ -58,21 +58,21 @@ myBlog: #我的网站
     description: 加速下载GitHub上的文件
   - name: 网站监控
     url: https://status.ysbrid.top
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.5/nav/%E7%9B%91%E6%8E%A7.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/%E7%9B%91%E6%8E%A7.png
     description: 看看我的网站有没有正常运行把
 
 website: #常用网站
   - name: 哔哩哔哩
     url: https://www.bilibili.com
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.5/nav/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.png
     description: 国内知名的视频弹幕网站
   - name: 163邮箱
     url: https://mail.163.com
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.5/nav/%E7%BD%91%E6%98%93%E9%82%AE%E7%AE%B1.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/%E7%BD%91%E6%98%93%E9%82%AE%E7%AE%B1.png
     description: “中文邮箱第一品牌”
   - name: Cloudflare
     url: https://www.cloudflare.com
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.5/nav/cloudflare.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/cloudflare.png
     description: Cloudflare 是基础设施、应用程序和团队的工作基础。
 #  - name: 
 #    url: 
@@ -82,7 +82,7 @@ website: #常用网站
 king: #资源网站
   - name: pixiv
     url: https://www.pixiv.net
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.5/nav/pixiv.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/pixiv.png
     description: 由日本艺术家所组成的以插图、漫画和小说艺术为中心的社交网络
   - name: ZZZFun动漫网
     url: http://www.zzzfun.com
@@ -96,25 +96,25 @@ king: #资源网站
 hotTools: #常用工具
   - name: Font Awesome
     url: https://fontawesome.com
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.5/nav/font-awesome.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/font-awesome.png
     description: 网络上最受欢迎的图标集和工具包
   - name: 站长工具
     url: http://tool.chinaz.com
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.5/nav/%E7%AB%99%E9%95%BF%E5%B7%A5%E5%85%B7.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/%E7%AB%99%E9%95%BF%E5%B7%A5%E5%85%B7.png
     description: 一个非常有用的网页工具
   - name: 阿里图标库
     url: https://www.iconfont.cn
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.5/nav/%E9%98%BF%E9%87%8C%E5%9B%BE%E6%A0%87.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/%E9%98%BF%E9%87%8C%E5%9B%BE%E6%A0%87.png
     description: 国内有名的图标库
   - name: Encycolorpedia
     url: https://encycolorpedia.cn
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.5/nav/%E9%A2%9C%E8%89%B2.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/%E9%A2%9C%E8%89%B2.png
     description: 十六进制颜色查询网站
   - name: pug转html
     url: https://pughtml.com
     img: https://pughtml.com/assets/logo.png
     description: 提供了pug转换html
-  - naem: Emoji大全
+  - name: Emoji大全
     url: https://www.emojidaquan.com/
     img: https://www.emojidaquan.com/Public/img/logo.png
     description: 提供了Emoji表情
@@ -126,21 +126,21 @@ devTools: #开发工具
     description: 面向开源及私有软件项目的托管平台。
   - name: Vercel
     url: https://vercel.com
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.5/nav/vercel.webp
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/vercel.webp
     description: 网站托管加速服务。
   - name: Coding
     url: https://coding.net
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.5/nav/coding.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/coding.png
     description: 一站式开发协作工具
   - name: npm
     url: https://www.npmjs.com/settings/meng-luo/profile
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.5/nav/npm.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/npm.png
     description:
 
 about:
-  url: /about/
+  url: https://about.ysbrid.top
   icon: far fa-heart
-  name: 关于本站
+  name: 关于我
 
 aboutPage:
   website:
@@ -150,7 +150,7 @@ aboutPage:
     head: 关于站长
     name: 梦璃雨落
     url: https://www.ysbrid.top/
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.5/%E5%A4%B4%E5%83%8F.webp
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/%E5%A4%B4%E5%83%8F.webp
     description: 懒人一个
     html: '<br /><blockquote><p>本站是<a href="https://github.com/HCLonely">HCLonely</a>基于<a href="https://github.com/WebStackPage/WebStackPage.github.io">WebStackPage</a>项目做的一款<a href="https://hexo.io/">Hexo</a>主题。</p></blockquote>'
 
