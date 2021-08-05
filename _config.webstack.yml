@@ -24,7 +24,7 @@ menu:
     config: website
 
   - name: 资源类
-    icon: fas icon-ziyuan
+    icon: iconfont icon-ziyuan
     submenu:
       - name: 动漫资源
         icon: iconfont icon-dongman
@@ -168,11 +168,11 @@ dmzy: #动漫资源
 ypzy: #音频资源
   - name: vip音乐在线解析
     url: http://music.onlychen.cn
-    img: http://music.onlychen.cn/static/img/apple-touch-icon.png
+    img: http://bpic.588ku.com/element_origin_min_pic/01/19/88/60570bd5a7e9df6.jpg
     description: 音乐解析网站
   - name: 全网音乐下载
     url: https://www.eggvod.cn/music
-    img: http://music.onlychen.cn/static/img/apple-touch-icon.png
+    img: http://bpic.588ku.com/element_origin_min_pic/01/19/88/60570bd5a7e9df6.jpg
     description: 音乐解析网站
 
 spzy: #视频资源
@@ -506,77 +506,77 @@ qtgj: #其他工具
 kpl: #科普类
   - name: 医学微视
     url: https://www.mvyxws.com
-    img: 
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E5%8C%BB%E5%AD%A6%E5%BE%AE%E8%A7%86.png
     description: 
   - name: 法律之星
     url: http://law1.law-star.com
-    img: 
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E6%B3%95%E5%BE%8B%E4%B9%8B%E6%98%9F.png
     description: 
   - name: 科塔学术导航
     url: https://site.sciping.com
-    img: 
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E7%A7%91%E5%A1%94%E5%AD%A6%E6%9C%AF%E5%AF%BC%E8%88%AA.png
     description: 
   - name: 中科VIPExam考试学习数据库
     url: https://www.vipexam.org
-    img: 
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E4%B8%AD%E7%A7%91VIPExam%E8%80%83%E8%AF%95%E5%AD%A6%E4%B9%A0%E6%95%B0%E6%8D%AE%E5%BA%93.png
     description: 
   - name: 全历史
     url: https://www.allhistory.com
-    img: 
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E5%85%A8%E5%8E%86%E5%8F%B2.svg
     description: 
   - name: 科学文库
     url: https://book.sciencereading.cn
-    img: 
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E7%A7%91%E5%AD%A6%E6%96%87%E5%BA%93.png
     description: 
   - name: 知乎
     url: https://www.zhihu.com
-    img: 
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E7%9F%A5%E4%B9%8E.png
     description: 
 
 xxl: #学习类
   - name: 中国大学mooc
     url: https://www.icourse163.org
-    img: 
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6mooc.png
     description: 
   - name: 爱课程
     url: https://www.icourses.cn
-    img: 
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E7%88%B1%E8%AF%BE%E7%A8%8B.png
     description: 
   - name: 学堂在线
     url: https://www.xuetangx.com
-    img: 
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E5%AD%A6%E5%A0%82%E5%9C%A8%E7%BA%BF.png
     description: 
   - name: 万门大学
     url: https://www.wanmen.org
-    img: 
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E4%B8%87%E9%97%A8%E5%A4%A7%E5%AD%A6.png
     description: 
   - name: 网易云课堂
     url: https://study.163.com
-    img: 
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E7%BD%91%E6%98%93%E4%BA%91%E8%AF%BE%E5%A0%82.png
     description: 
   - name: 腾讯课堂
     url: https://ke.qq.com
-    img: 
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E8%85%BE%E8%AE%AF%E8%AF%BE%E5%A0%82.gif
     description: 
   - name: 我要自学网
     url: https://www.51zxw.net
-    img: 
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E6%88%91%E8%A6%81%E8%87%AA%E5%AD%A6%E7%BD%91.png
     description: 
   - name: 三节课
     url: https://www.sanjieke.cn
-    img: 
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E4%B8%89%E8%8A%82%E8%AF%BE.png
     description: 
   - name: 唯库
     url: https://www.yojiang.cn
-    img: 
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E5%94%AF%E5%BA%93.png
     description: 
   - name: 大学生资源网
     url: http://www.dxzy163.com
-    img: 
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E5%A4%A7%E5%AD%A6%E7%94%9F%E8%B5%84%E6%BA%90%E7%BD%91.png
     description: 
   - name: 1纳米学习导航
     url: http://1nami.com
-    img: 
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/1%E7%BA%B3%E7%B1%B3%E5%AD%A6%E4%B9%A0%E5%AF%BC%E8%88%AA.png
     description: 
 
 about:
@@ -606,8 +606,7 @@ busuanzi:
 
 custom:
   head: |- # 以下内容插入到<head></head>标签内，可设置多行，注意每行开头至少四个空格
-    - <link rel="stylesheet" href="//at.alicdn.com/t/font_2724788_8pwqzbn54tg.css">
-    <!-- 可设置多行 -->
+    <link rel="stylesheet" href="//at.alicdn.com/t/font_2724788_8pwqzbn54tg.css">
   body: |- # 以下内容插入到</body>标签之前，可设置多行，注意每行开头至少四个空格
     <!-- 直接添加html内容即可 -->
     <!-- 可设置多行 -->
