@@ -1,4 +1,4 @@
-favicon: /images/favicon.ico
+favicon: /img/favicon.ico
 banner: /images/webstack_banner_cn.png
 
 logo:
@@ -16,41 +16,115 @@ githubCorner: '<a href="https://github.com/meng-luo" class="github-corner" aria-
 
 menu:
   - name: 我的网站
-    icon: fad fa-star
-    config: myBlog
+    icon: iconfont icon-wo
+    config: myweb
+
   - name: 常用网站
     icon: far fa-star
     config: website
-  - name: 资源网站
-    icon: fas fa-browser
-    config: king
-  - name: 工具
+
+  - name: 资源类
+    icon: fas icon-ziyuan
+    submenu:
+      - name: 动漫资源
+        icon: iconfont icon-dongman
+        config: dmzy
+      - name: 音频资源
+        icon: iconfont icon-yinpin
+        config: ypzy
+      - name: 视频资源
+        icon: iconfont icon-shipin
+        config: spzy
+      - name: 壁纸资源
+        icon: iconfont icon-bizhiputie
+        config: bzzy
+      - name: 阅读资源
+        icon: iconfont icon-yuedu
+        config: ydzy
+
+  - name: 素材类
+    icon: iconfont icon-sucai
+    submenu:
+      - name: 综合素材
+        icon: iconfont icon-zonghe
+        config: zhsc
+      - name: 视频素材
+        icon: iconfont icon-shipin1
+        config: spsc
+      - name: 图片素材
+        icon: iconfont icon-tupian
+        config: tpsc
+      - name: 音效素材
+        icon: iconfont icon-yinpin
+        config: yxsc
+      - name: 简历素材
+        icon: iconfont icon-jianli
+        config: jlsc
+      - name: 稿子素材
+        icon: iconfont icon-zhuanxie
+        config: gzsc
+      - name: 字体素材
+        icon: iconfont icon-ziti
+        config: ztsc
+
+  - name: 浏览器插件
+    icon: iconfont icon-liulanqi-
+    confog: qlqcj
+
+  - name: 工具类
     icon: fas fa-tools
     submenu:
-      - name: 常用工具
-        icon: far fa-star
-        config: hotTools
+      - name: 图片工具
+        icon: iconfont icon-tupian
+        config: tpgj
       - name: 开发工具
         icon: fas fa-tools
         config: devTools
+      - name: 查询工具
+        icon: iconfont icon-ziyuan
+        config: cxgj
+      - name: 网页工具
+        icon: iconfont icon-liulanqi-
+        config: wygj
+      - name: 视频工具
+        icon: iconfont icon-shipin
+        config: spgj
+      - name: 音频工具
+        icon: iconfont icon-yinpin
+        config: ypgj
+      - name: 文档工具
+        icon: iconfont icon-yuedu
+        config: wdgj
+      - name: 其他工具
+        icon: iconfont icon-changyong
+        config: qtgj
 
+  - name: 知识类
+    icon: iconfont icon-zhishi
+    submenu:
+      - name: 科普类
+        icon: iconfont icon-kepu
+        config: kpl
+      - name: 学习类
+        icon: iconfont icon-xuexi
+        config: xxl
 
-myBlog: #我的网站
+myweb: #我的网站
   - name: 梦落の小屋
     url: https://www.ysbrid.top
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/%E5%A4%B4%E5%83%8F.webp
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/%E5%A4%B4%E5%83%8F.webp
     description: 一个懒人的博客。
   - name: 梦落の主页
     url: https://home.ysbrid.top
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/%E4%B8%BB%E9%A1%B5.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E4%B8%BB%E9%A1%B5.png
     description: 高仿Windows的主页
   - name: 关于梦璃雨落
     url: https://about.ysbrid.top
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/%E5%85%B3%E4%BA%8E.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E5%85%B3%E4%BA%8E.png
     description: 高仿win8.1开始菜单的关于页
   - name: 梦落の网盘
     url: https://drive.ysbrid.top
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/%E4%BA%91%E7%9B%98.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E4%BA%91%E7%9B%98.png
     description: 分享资源的东西
   - name: Github下载加速
     url: https://speed.ysbrid.top
@@ -58,32 +132,26 @@ myBlog: #我的网站
     description: 加速下载GitHub上的文件
   - name: 网站监控
     url: https://status.ysbrid.top
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/%E7%9B%91%E6%8E%A7.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E7%9B%91%E6%8E%A7.png
     description: 看看我的网站有没有正常运行把
 
 website: #常用网站
   - name: 哔哩哔哩
     url: https://www.bilibili.com
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9.png
     description: 国内知名的视频弹幕网站
   - name: 163邮箱
     url: https://mail.163.com
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/%E7%BD%91%E6%98%93%E9%82%AE%E7%AE%B1.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E7%BD%91%E6%98%93%E9%82%AE%E7%AE%B1.png
     description: “中文邮箱第一品牌”
   - name: Cloudflare
     url: https://www.cloudflare.com
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/cloudflare.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/cloudflare.png
     description: Cloudflare 是基础设施、应用程序和团队的工作基础。
-#  - name: 
-#    url: 
-#    img: 
-#    description: 
 
-king: #资源网站
-  - name: pixiv
-    url: https://www.pixiv.net
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/pixiv.png
-    description: 由日本艺术家所组成的以插图、漫画和小说艺术为中心的社交网络
+#资源类
+
+dmzy: #动漫资源
   - name: ZZZFun动漫网
     url: http://www.zzzfun.com
     img: http://zzz-1251249846.file.myqcloud.com/js/logo.jpg
@@ -91,33 +159,217 @@ king: #资源网站
   - name: AGE动漫
     url: https://www.agefans.net
     img: https://cdn.radius-america.com/age/static/img/logo.png
-    description: 算是国内的一个有名动漫网站了吧
+    description: 可能要挂梯子
+  - name: 动漫花园
+    url: http://www.dmhy.org
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E5%8A%A8%E6%BC%AB%E8%8A%B1%E5%9B%AD.gif
+    description: 国内速度慢
 
-hotTools: #常用工具
-  - name: Font Awesome
-    url: https://fontawesome.com
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/font-awesome.png
-    description: 网络上最受欢迎的图标集和工具包
-  - name: 站长工具
-    url: http://tool.chinaz.com
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/%E7%AB%99%E9%95%BF%E5%B7%A5%E5%85%B7.png
-    description: 一个非常有用的网页工具
-  - name: 阿里图标库
-    url: https://www.iconfont.cn
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/%E9%98%BF%E9%87%8C%E5%9B%BE%E6%A0%87.png
-    description: 国内有名的图标库
-  - name: Encycolorpedia
-    url: https://encycolorpedia.cn
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/%E9%A2%9C%E8%89%B2.png
-    description: 十六进制颜色查询网站
-  - name: pug转html
-    url: https://pughtml.com
-    img: https://pughtml.com/assets/logo.png
-    description: 提供了pug转换html
+ypzy: #音频资源
+  - name: vip音乐在线解析
+    url: http://music.onlychen.cn
+    img: http://music.onlychen.cn/static/img/apple-touch-icon.png
+    description: 音乐解析网站
+  - name: 全网音乐下载
+    url: https://www.eggvod.cn/music
+    img: http://music.onlychen.cn/static/img/apple-touch-icon.png
+    description: 音乐解析网站
+
+spzy: #视频资源
+  - name: 预告片世界
+    url: https://www.yugaopian.cn
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E9%A2%84%E5%91%8A%E7%89%87%E4%B8%96%E7%95%8C.png
+    description: 
+  - name: 电影首发站
+    url: https://www.bddysf.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E7%94%B5%E5%BD%B1%E9%A6%96%E5%8F%91%E7%AB%99.png
+    description: 
+  - name: 疯狂影视搜索
+    url: http://ifkdy.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E7%96%AF%E7%8B%82%E5%BD%B1%E8%A7%86%E6%90%9C%E7%B4%A2.ico
+    description: 
+  - name: 小森林导航
+    url: http://www.xsldh6.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E5%B0%8F%E6%A3%AE%E6%9E%97%E5%AF%BC%E8%88%AA.jpg
+    description: 
+
+bzzy: #壁纸资源
+  - name: wallhaven
+    url: https://wallhaven.cc
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/wallhaven.png
+    description: 
+  - name: 堆糖
+    url: https://www.duitang.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E5%A0%86%E7%B3%96.png
+    description: 
+
+ydzy: #阅读资源
+  - name: 书享家
+    url: http://shuxiangjia.cn
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E4%B9%A6%E4%BA%AB%E5%AE%B6.png
+    description: 
+  - name: 鸠摩搜书
+    url: https://www.jiumodiary.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E9%B8%A0%E6%91%A9%E6%90%9C%E4%B9%A6.png
+    description: 
+
+#素材类
+
+zhsc: #综合素材
+  - name: 优设导航
+    url: https://hao.uisdc.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E4%BC%98%E8%AE%BE%E5%AF%BC%E8%88%AA.png
+    description: 一个设计师导航网站
+  - name: Pexels
+    url: https://www.pexels.com/zh-cn/
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/pexels%E8%A7%86%E9%A2%91.png
+    description: 
+  - name: 新CG儿
+    url: https://www.newcger.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E6%96%B0CG%E5%84%BF.ico
+    description: 
+
+spsc: #视频素材
+  - name: 新片场
+    url: https://www.xinpianchang.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E6%96%B0%E7%89%87%E5%9C%BA.ico
+    description: 
+  - name: giphy
+    url: https://giphy.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/giphy.png
+    description: 
+  - name: look ae
+    url: https://www.lookae.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/look%20ae.ico
+    description: 
+  - name: 忆姿网
+    url: https://www.yiz.vip
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E5%BF%86%E5%A7%BF%E7%BD%91.png
+    description: 
+  - name: fcpx资源站
+    url: https://www.mfcpx.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/fcpx%E8%B5%84%E6%BA%90%E7%AB%99.png
+    description: 
+
+tpsc: #图片素材
+  - name: 觅元素
+    url: http://www.51yuansu.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E8%A7%85%E5%85%83%E7%B4%A0.png
+    description: 
+  - name: 懒设计
+    url: https://www.fotor.com.cn
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E6%87%92%E8%AE%BE%E8%AE%A1.png
+    description: 
+
+yxsc: #音效素材
+  - name: 爱给网
+    url: https://www.aigei.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E7%88%B1%E7%BB%99%E7%BD%91.png
+    description: 
+  - name: 小森平的免费下载音效
+    url: https://taira-komori.jpn.org
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E5%B0%8F%E6%A3%AE%E5%B9%B3%E7%9A%84%E5%85%8D%E8%B4%B9%E4%B8%8B%E8%BD%BD%E9%9F%B3%E6%95%88.png
+    description: 
+  - name: 牛片网
+    url: https://www.6pian.cn
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E7%89%9B%E7%89%87%E7%BD%91.png
+    description: 
+
+jlsc: #简历素材
+  - name: 锤子简历
+    url: https://www.100chui.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E9%94%A4%E5%AD%90%E7%AE%80%E5%8E%86.png
+    description: 
+  - name: 超级简历
+    url: https://www.wondercv.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E8%B6%85%E7%BA%A7%E7%AE%80%E5%8E%86.ico
+    description: 
+
+gzsc: #稿子素材
+  - name: 稿定设计
+    url: https://www.gaoding.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E7%A8%BF%E5%AE%9A%E8%AE%BE%E8%AE%A1.svg
+    description: 
+  - name: 图形方格纸
+    url: https://www.mygraphpaper.com/index.php?lang=zh-hans
+    img: 
+    description: 
+
+ztsc: #字体素材
+  - name: 自由字体
+    url: https://ziyouziti.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E8%87%AA%E7%94%B1%E5%AD%97%E4%BD%93.png
+    description: 
+  - name: 模板王字库
+    url: http://fonts.mobanwang.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E6%A8%A1%E6%9D%BF%E7%8E%8B%E5%AD%97%E5%BA%93.gif
+    description: 
+
+qlqcj: #浏览器插件
+  - name: 极简插件
+    url: https://chrome.zzzmh.cn
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E6%9E%81%E7%AE%80%E6%8F%92%E4%BB%B6.webp
+    description: 
+  - name: crx4chrome
+    url: https://www.crx4chrome.com/category/extensions
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/crx4chrome.png
+    description: 
+  - name: Gugeapps
+    url: https://www.gugeapps.net
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/Gugeapps.png
+    description: 
+
+#工具类
+
+tpgj: #图片工具
+  - name: bigjpg
+    url: https://bigjpg.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/bigjpg.ico
+    description: 
+  - name: 在线PS
+    url: https://www.uupoop.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E5%9C%A8%E7%BA%BFps.svg
+    description: 
+  - name: soogif
+    url: https://www.soogif.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/soogif.png
+    description: 
+  - name: 表情锅
+    url: https://app.xuty.tk
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E8%A1%A8%E6%83%85%E9%94%85.ico
+    description: 
+  - name: 图表秀
+    url: https://www.tubiaoxiu.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E5%9B%BE%E8%A1%A8%E7%A7%80.png
+    description: 
+  - name: 图说
+    url: https://tushuo.baidu.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E5%9B%BE%E8%AF%B4.png
+    description: 
+  - name: photopea
+    url: https://www.photopea.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/photopea.png
+    description: 
+  - name: 在线一键抠图
+    url: https://m.gaoding.com/koutu
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E5%9C%A8%E7%BA%BF%E4%B8%80%E9%94%AE%E6%8A%A0%E5%9B%BE.png
+    description: 
+  - name: 逗比拯救世界
+    url: https://www.dbbqb.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E9%80%97%E6%AF%94%E6%8B%AF%E6%95%91%E4%B8%96%E7%95%8C.png
+    description: 
+  - name: removebg
+    url: https://www.remove.bg
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/removebg.svg
+    description: 可以免费一键抠图的智能网站
+  - name: picdiet
+    url: https://www.picdiet.com/zh-cn
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/picdiet.png
+    description: 体验最好的图片压缩网站
   - name: Emoji大全
-    url: https://www.emojidaquan.com/
+    url: https://www.emojidaquan.com
     img: https://www.emojidaquan.com/Public/img/logo.png
-    description: 提供了Emoji表情
+    description: 
 
 devTools: #开发工具
   - name: Github
@@ -126,16 +378,206 @@ devTools: #开发工具
     description: 面向开源及私有软件项目的托管平台。
   - name: Vercel
     url: https://vercel.com
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/vercel.webp
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/vercel.webp
     description: 网站托管加速服务。
   - name: Coding
     url: https://coding.net
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/coding.png
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/coding.png
     description: 一站式开发协作工具
   - name: npm
-    url: https://www.npmjs.com/settings/meng-luo/profile
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/nav/npm.png
-    description:
+    url: https://www.npmjs.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/npm.png
+    description: 软件包发布
+
+cxgj: #查询工具
+  - name: 小鸡词典
+    url: https://jikipedia.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E5%B0%8F%E9%B8%A1%E8%AF%8D%E5%85%B8.png
+    description: 
+  - name: 面包树
+    url: https://www.yunpanjingling.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E9%9D%A2%E5%8C%85%E6%A0%91.png
+    description: 
+  - name: 全国图书馆参考咨询联盟
+    url: http://www.ucdrs.superlib.net
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E5%85%A8%E5%9B%BD%E5%9B%BE%E4%B9%A6%E9%A6%86%E5%8F%82%E8%80%83%E5%92%A8%E8%AF%A2%E8%81%94%E7%9B%9F.jpg
+    description: 
+  - name: 能不能好好说话
+    url: https://lab.magiconch.com/nbnhhsh
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E8%83%BD%E4%B8%8D%E8%83%BD%E5%A5%BD%E5%A5%BD%E8%AF%B4%E8%AF%9D.ico
+    description: 
+  - name: 视频网站会员号
+    url: https://www.fenxiangdashi.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E8%A7%86%E9%A2%91%E7%BD%91%E7%AB%99%E4%BC%9A%E5%91%98%E5%8F%B7.gif
+    description: 
+  - name: 慢慢买
+    url: http://www.manmanbuy.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E6%85%A2%E6%85%A2%E4%B9%B0.png
+    description: 
+  - name: 秘塔检索
+    url: https://metaso.cn
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E7%A7%98%E5%A1%94%E6%A3%80%E7%B4%A2.ico
+    description: 
+
+wygj: #网页工具
+  - name: Font Awesome
+    url: https://fontawesome.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/font-awesome.png
+    description: 网络上最受欢迎的图标集和工具包
+  - name: 站长工具
+    url: http://tool.chinaz.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E7%AB%99%E9%95%BF%E5%B7%A5%E5%85%B7.png
+    description: 一个非常有用的网页工具
+  - name: 阿里图标库
+    url: https://www.iconfont.cn
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E9%98%BF%E9%87%8C%E5%9B%BE%E6%A0%87.png
+    description: 国内有名的图标库
+  - name: Encycolorpedia
+    url: https://encycolorpedia.cn
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E9%A2%9C%E8%89%B2.png
+    description: 十六进制颜色查询网站
+  - name: pug转html
+    url: https://pughtml.com
+    img: https://pughtml.com/assets/logo.png
+    description: 提供了pug转换html
+
+spgj: #视频工具
+  - name: 剪映PC版
+    url: https://cc.oceanengine.com/creative-factory/video-edito
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E5%89%AA%E6%98%A0PC%E7%89%88.svg
+    description: 
+  - name: 视频去水印
+    url: http://www.ttlsj.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E8%A7%86%E9%A2%91%E5%8E%BB%E6%B0%B4%E5%8D%B0.ico
+    description: 
+  - name: 视频去水印
+    url: https://www.helloty.cn
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E8%A7%86%E9%A2%91%E5%8E%BB%E6%B0%B4%E5%8D%B02.ico
+    description: 
+
+ypgj: #音频工具
+  - name: 分轨
+    url: https://ifengui.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E5%88%86%E8%BD%A8.png
+    description: 
+
+wdgj: #文档工具
+  - name: 飞书
+    url: https://docs.feishu.cn
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E9%A3%9E%E4%B9%A6.webp
+    description: 
+  - name: 秘塔写作猫
+    url: https://xiezuocat.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E7%A7%98%E5%A1%94%E5%86%99%E4%BD%9C%E7%8C%AB.png
+    description: 
+  - name: PDF转换
+    url: http://www.hipdf.cn
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/PDF%E8%BD%AC%E6%8D%A2.svg
+    description: 
+  - name: Grammarly
+    url: https://app.grammarly.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/Grammarly.svg
+    description: 
+  - name: all to all
+    url: https://www.alltoall.net
+    img: https://www.alltoall.net/qfy-content/uploads/2016/06/fa70f63e4bbcc259632aae74746ce5d6.png
+    description: 一个在线格式转化的网站
+  - name: 迅捷PDF转换器
+    url: https://app.xunjiepdf.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E8%BF%85%E6%8D%B7PDF%E8%BD%AC%E6%8D%A2%E5%99%A8.png
+    description: 
+  - name: ilovepdf
+    url: https://www.ilovepdf.com/zh-cn
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/ilovepdf.svg
+    description: 
+
+qtgj: #其他工具
+  - name: 兔二工具
+    url: https://www.tool22.com
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E9%9A%8F%E6%9C%BA%E8%87%AA%E5%8A%A8%E7%94%9F%E6%88%90%E5%A4%B4%E5%83%8F%E7%9A%84%E7%BD%91%E7%AB%99.png
+    description: 随机自动生成头像
+  - name: passmore
+    url: http://www.passmore.cn
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/passmore.ico
+    description: 
+
+#知识类
+
+kpl: #科普类
+  - name: 医学微视
+    url: https://www.mvyxws.com
+    img: 
+    description: 
+  - name: 法律之星
+    url: http://law1.law-star.com
+    img: 
+    description: 
+  - name: 科塔学术导航
+    url: https://site.sciping.com
+    img: 
+    description: 
+  - name: 中科VIPExam考试学习数据库
+    url: https://www.vipexam.org
+    img: 
+    description: 
+  - name: 全历史
+    url: https://www.allhistory.com
+    img: 
+    description: 
+  - name: 科学文库
+    url: https://book.sciencereading.cn
+    img: 
+    description: 
+  - name: 知乎
+    url: https://www.zhihu.com
+    img: 
+    description: 
+
+xxl: #学习类
+  - name: 中国大学mooc
+    url: https://www.icourse163.org
+    img: 
+    description: 
+  - name: 爱课程
+    url: https://www.icourses.cn
+    img: 
+    description: 
+  - name: 学堂在线
+    url: https://www.xuetangx.com
+    img: 
+    description: 
+  - name: 万门大学
+    url: https://www.wanmen.org
+    img: 
+    description: 
+  - name: 网易云课堂
+    url: https://study.163.com
+    img: 
+    description: 
+  - name: 腾讯课堂
+    url: https://ke.qq.com
+    img: 
+    description: 
+  - name: 我要自学网
+    url: https://www.51zxw.net
+    img: 
+    description: 
+  - name: 三节课
+    url: https://www.sanjieke.cn
+    img: 
+    description: 
+  - name: 唯库
+    url: https://www.yojiang.cn
+    img: 
+    description: 
+  - name: 大学生资源网
+    url: http://www.dxzy163.com
+    img: 
+    description: 
+  - name: 1纳米学习导航
+    url: http://1nami.com
+    img: 
+    description: 
 
 about:
   url: https://about.ysbrid.top
@@ -150,7 +592,7 @@ aboutPage:
     head: 关于站长
     name: 梦璃雨落
     url: https://www.ysbrid.top/
-    img: https://unpkg.zhimg.com/meng-luo-blog@1.2.6/%E5%A4%B4%E5%83%8F.webp
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/%E5%A4%B4%E5%83%8F.webp
     description: 懒人一个
     html: '<br /><blockquote><p>本站是<a href="https://github.com/HCLonely">HCLonely</a>基于<a href="https://github.com/WebStackPage/WebStackPage.github.io">WebStackPage</a>项目做的一款<a href="https://hexo.io/">Hexo</a>主题。</p></blockquote>'
 
@@ -164,7 +606,7 @@ busuanzi:
 
 custom:
   head: |- # 以下内容插入到<head></head>标签内，可设置多行，注意每行开头至少四个空格
-    <!-- 直接添加html内容即可 -->
+    - <link rel="stylesheet" href="//at.alicdn.com/t/font_2724788_8pwqzbn54tg.css">
     <!-- 可设置多行 -->
   body: |- # 以下内容插入到</body>标签之前，可设置多行，注意每行开头至少四个空格
     <!-- 直接添加html内容即可 -->
