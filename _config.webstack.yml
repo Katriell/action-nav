@@ -69,7 +69,7 @@ menu:
 
   - name: 浏览器插件
     icon: iconfont icon-liulanqi-
-    confog: qlqcj
+    confog: llqcj
 
   - name: 工具类
     icon: fas fa-tools
@@ -123,9 +123,13 @@ myweb: #我的网站
     img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E5%85%B3%E4%BA%8E.png
     description: 高仿win8.1开始菜单的关于页
   - name: 梦落の网盘
-    url: https://drive.ysbrid.top
+    url: https://pan.ysbrid.top
     img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E4%BA%91%E7%9B%98.png
     description: 分享资源的东西
+  - name: 梦落の网盘（旧）
+    url: https://drive.ysbrid.top
+    img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E4%BA%91%E7%9B%98.png
+    description: 分享资源的东西(因太慢被嫌弃)
   - name: Github下载加速
     url: https://speed.ysbrid.top
     img: /images/logos/github.png
@@ -305,7 +309,7 @@ ztsc: #字体素材
     img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E6%A8%A1%E6%9D%BF%E7%8E%8B%E5%AD%97%E5%BA%93.gif
     description: 
 
-qlqcj: #浏览器插件
+llqcj: #浏览器插件
   - name: 极简插件
     url: https://chrome.zzzmh.cn
     img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E6%9E%81%E7%AE%80%E6%8F%92%E4%BB%B6.webp
