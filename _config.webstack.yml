@@ -138,6 +138,12 @@ myweb: #我的网站
     url: https://status.ysbrid.top
     img: https://unpkg.zhimg.com/meng-luo-blog@1.3.0/nav/%E7%9B%91%E6%8E%A7.png
     description: 看看我的网站有没有正常运行把
+  - name: 我的工具
+    url: https://tool.ysbrid.top
+    description: 集合大量的常用工具
+  - name: 我的API
+    url: https://api.ysbrid.top
+    description: 自己搭的api，应该会用到吧
 
 website: #常用网站
   - name: 哔哩哔哩
