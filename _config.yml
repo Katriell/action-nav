@@ -104,4 +104,4 @@ theme: webstack
 deploy:
   type: git
   repo:
-    github: https://meng-luo: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@github.com/meng-luo/nav.git,gh-pages
+    github: https://github.com/meng-luo/nav.git,gh-pages
